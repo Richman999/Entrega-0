@@ -34,6 +34,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: fc5a038d43fbd4f4ab1983041adb55e4, type: 3}
+        m_Scale: {x: 1, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMap:
+        m_Texture: {fileID: 2800000, guid: 7d68ba4f663a68949bcca230a9372a95, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -66,6 +70,7 @@ Material:
     - _ZWriteControl: 0
     m_Colors:
     - _Color: {r: 8.474189, g: 8.474189, b: 8.474189, a: 1}
+    - _DissolveParams: {r: 0, g: 0, b: 0, a: 0}
     - _TextureVelocity: {r: -1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

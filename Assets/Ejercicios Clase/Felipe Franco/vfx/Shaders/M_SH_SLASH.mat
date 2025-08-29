@@ -42,11 +42,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _AlphaMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 6238da6df49da1e4f9fc736fbb183304, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 52cd40b26c10eef47a24804759ac23cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMap:
+        m_Texture: {fileID: 2800000, guid: fb27e08685eee4f49bfc0c60a3efe24f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -79,6 +83,7 @@ Material:
     - _ZWriteControl: 0
     m_Colors:
     - _Color: {r: 14.754424, g: 14.754424, b: 14.754424, a: 0}
+    - _DissolveParams: {r: 0, g: 0, b: 0, a: 0}
     - _TextureSpeed: {r: -1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -2145,8 +2145,8 @@
     "m_ObjectId": "4f544f5480f144bab0edb38a8c93b3d6",
     "m_Title": "Color Blending",
     "m_Position": {
-        "x": -876.000244140625,
-        "y": -1239.999755859375
+        "x": -876.0,
+        "y": -1240.0
     }
 }
 
@@ -2542,7 +2542,7 @@
     "m_ObjectId": "64b90fc94baf4f29b4b83f02029428a0",
     "m_Title": "Main Texture Animation",
     "m_Position": {
-        "x": -2634.000244140625,
+        "x": -2634.0,
         "y": -336.0
     }
 }
@@ -3028,7 +3028,7 @@
     "m_ObjectId": "7e3c3e80ed174d0a8c5d3e5a1243e9dc",
     "m_Title": "Alpha Masking",
     "m_Position": {
-        "x": -73.99996948242188,
+        "x": -74.0,
         "y": 509.0
     }
 }

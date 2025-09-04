@@ -24,3 +24,4 @@ Agregados en particulas (Adicionales al Slash):
 - 3 tipos diferentes de piedras que salen disparadas por el impacto.
 - Polvo en la zona trasera del personaje.
 
+[Video Demo aquí](https://youtu.be/WE5-kgGvbPk)

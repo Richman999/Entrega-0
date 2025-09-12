@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Cuba
+  m_Name: M_Cuba_Back
   m_Shader: {fileID: -6465566751694194690, guid: 23186deb5edf0c243823abb92d0fef6d, type: 3}
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 2100000, guid: dcc927176bd90ed4eb4b6216d278224e, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _SURFACE_TYPE_TRANSPARENT
@@ -26,41 +26,14 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _CastShadows: 1
-    - _Cull: 2
-    - _DstBlend: 10
-    - _QueueControl: 0
-    - _QueueOffset: 0
-    - _SrcBlend: 5
-    - _Surface: 1
-    - _ZTest: 4
-    - _ZWrite: 0
-    - _ZWriteControl: 0
-    m_Colors:
-    - _BackColor: {r: 0, g: 1, b: 0.9447041, a: 0.2509804}
-    - _EulerSpeed: {r: 0, g: 0, b: 0, a: 0}
-    - _FrontColor: {r: 1, g: 0, b: 0, a: 0.5019608}
+    - _Cull: 1
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &3061496002816116508
+--- !u!114 &664317242177458445
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

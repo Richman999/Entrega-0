@@ -27,6 +27,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _ColorGradient:
+        m_Texture: {fileID: 2800000, guid: 27949b59bee82f74086e8ec97a94fcb7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Reflections:
+        m_Texture: {fileID: 8900000, guid: 6c5ff1924a3692f4d8e5a1a7499b93e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -47,6 +55,7 @@ Material:
     - _CastShadows: 1
     - _Cull: 2
     - _DstBlend: 10
+    - _NormalStrength: 0.1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SrcBlend: 5
@@ -56,6 +65,10 @@ Material:
     - _ZWriteControl: 0
     m_Colors:
     - _BackColor: {r: 0.6886792, g: 0, b: 0.48397958, a: 0.572549}
+    - _CircleNoiseSpeed: {r: 1, g: 1, b: 0, a: 0}
+    - _CircleParams: {r: 0.8, g: 0.2, b: 0, a: 0}
+    - _CircleTiling: {r: 5, g: 5, b: 0, a: 0}
+    - _ColorVelocity: {r: 0.2, g: 0.2, b: 0, a: 0}
     - _EulerSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _FrontColor: {r: 0.0277234, g: 0.8396226, b: 0.5251786, a: 0.5529412}
   m_BuildTextureStacks: []

@@ -55,7 +55,7 @@ Material:
     - _NormalStrenght: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness: 0
+    - _Smoothness: 0.759
     m_Colors:
     - _HoverDireccion: {r: 0, g: 0, b: 1, a: 0}
     - _RotationAxis: {r: 0, g: 0, b: 1, a: 0}

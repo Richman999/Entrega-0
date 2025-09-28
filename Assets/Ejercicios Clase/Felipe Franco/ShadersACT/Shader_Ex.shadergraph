@@ -2593,7 +2593,7 @@
     "m_ShaderOutputName": "Offset",
     "m_StageCapability": 3,
     "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
+    "m_DefaultValue": 0.5,
     "m_Labels": []
 }
 
@@ -4213,8 +4213,8 @@
     "m_ObjectId": "d4cf2afa2a244894bf7040a377e55c73",
     "m_Title": "Color",
     "m_Position": {
-        "x": 1000.7998657226563,
-        "y": 85.59996032714844
+        "x": 1000.799560546875,
+        "y": 85.5999755859375
     }
 }
 

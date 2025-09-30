@@ -119,6 +119,64 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!95 &325359995 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: f1e640f0b8c4abd44b6ad3425015eeda, type: 3}
+  m_PrefabInstance: {fileID: 845043552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &486502141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 486502143}
+  - component: {fileID: 486502142}
+  m_Layer: 0
+  m_Name: Director
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &486502142
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486502141}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 818e45519f084e648abc4e2e79e72075, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 4296509129612137963, guid: 818e45519f084e648abc4e2e79e72075, type: 2}
+    value: {fileID: 325359995}
+  - key: {fileID: -2044295608801508743, guid: 818e45519f084e648abc4e2e79e72075, type: 2}
+    value: {fileID: 1564376424}
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &486502143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486502141}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &563146724
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,6 +449,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29ede24d36ad4ef4eb0f074700e52fdd, type: 3}
+--- !u!95 &1564376424 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 29ede24d36ad4ef4eb0f074700e52fdd, type: 3}
+  m_PrefabInstance: {fileID: 1476940010}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1964926932
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,3 +722,4 @@ SceneRoots:
   - {fileID: 598952709}
   - {fileID: 1476940010}
   - {fileID: 845043552}
+  - {fileID: 486502143}

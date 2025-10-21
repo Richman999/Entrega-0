@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8694845213987049931
+--- !u!114 &-2648653378694917351
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_ENV_Water_A
-  m_Shader: {fileID: -6465566751694194690, guid: 714c95db2b6d6444db8ab35a93a5a6a1, type: 3}
+  m_Name: M_Test_A
+  m_Shader: {fileID: -6465566751694194690, guid: 12d600c9cbf77f844a06cb3b2f4cb615, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -37,6 +37,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _DiffuseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: aa3e17aa66307e24ca9f562fc3e56763, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _NormalMap1:
         m_Texture: {fileID: 2800000, guid: aa3e17aa66307e24ca9f562fc3e56763, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -59,18 +67,24 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _DiffuseFactor: 4.32
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RefractionAmount: 0.01
-    - _WaveSpeed: 2
+    - _SpecularFactor: 5.87
+    - _SpecularHardness: 1.56
+    - _WaveSpeed: 3
     - _WaveStrength: 0.05
     m_Colors:
     - _DeepColor: {r: 0.14951935, g: 0.23219267, b: 0.30188674, a: 0}
-    - _DeepthParams: {r: 0.7, g: 3.5, b: 0, a: 0}
-    - _FoamColor: {r: 0.53889287, g: 0.6028583, b: 0.6603774, a: 0.23529412}
-    - _FoamParams: {r: 0.25, g: 0.16, b: 0, a: 0}
+    - _DeepthParams: {r: 3, g: 2, b: 0, a: 0}
+    - _FlowDirection: {r: 0.2, g: 0.1, b: 0, a: 0}
+    - _FlowSpeed: {r: 0.1, g: 0.05, b: 0, a: 0}
+    - _FoamColor: {r: 0.736383, g: 0.771377, b: 0.7924528, a: 1}
+    - _FoamParams: {r: 0.25, g: 0.15, b: 0, a: 0}
     - _NormalMap1Speed: {r: 0, g: 0.2, b: 0, a: 0}
     - _NormalMap2Speed: {r: 0.3, g: 0, b: 0, a: 0}
     - _ShallowColor: {r: 0.6552599, g: 0.81555, b: 0.8962264, a: 0}
+    - _WaterColor: {r: 0.5308384, g: 0.6681622, b: 0.745283, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

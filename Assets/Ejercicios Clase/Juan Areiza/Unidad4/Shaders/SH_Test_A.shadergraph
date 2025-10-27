@@ -2775,20 +2775,6 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "adb5e23f0ed94a8e954e483d804c6e24"
-                },
-                "m_SlotId": 2
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "3691cc5032b24e0abd962dab3edc08b8"
-                },
-                "m_SlotId": 1
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "aeaf01ebbb5341b98f5d1f3befaf1da4"
                 },
                 "m_SlotId": 0
@@ -6722,7 +6708,7 @@
     "m_ObjectId": "21bf72675d954641a8a3e674282d07cc",
     "m_Title": "Profundidad",
     "m_Position": {
-        "x": -5713.9990234375,
+        "x": -5714.00048828125,
         "y": 1044.0
     }
 }
@@ -8031,7 +8017,7 @@
     "m_Title": "Espuma",
     "m_Position": {
         "x": -5635.00048828125,
-        "y": 1884.9998779296875
+        "y": 1885.00048828125
     }
 }
 
@@ -11209,7 +11195,7 @@
     "m_Title": "Displacement",
     "m_Position": {
         "x": -2840.00048828125,
-        "y": -6515.0009765625
+        "y": -6515.0
     }
 }
 
@@ -11425,8 +11411,8 @@
     "m_ObjectId": "5592e24f1b7f4443b93ba48bb73974f2",
     "m_Title": "Displacement",
     "m_Position": {
-        "x": -2354.00048828125,
-        "y": -4170.00048828125
+        "x": -2354.0,
+        "y": -4170.0
     }
 }
 
@@ -12398,8 +12384,8 @@
     "m_ObjectId": "5f8c7bd193ad4578a427fe2bb79db48f",
     "m_Title": "Displacement",
     "m_Position": {
-        "x": -2816.00048828125,
-        "y": -5370.0009765625
+        "x": -2816.0,
+        "y": -5370.0
     }
 }
 
@@ -13977,8 +13963,8 @@
     "m_ObjectId": "7193728afea244ba87b80c1afe755ed1",
     "m_Title": "Blinn-Phong",
     "m_Position": {
-        "x": 1674.9993896484375,
-        "y": 3074.0
+        "x": 1675.0,
+        "y": 3074.00048828125
     }
 }
 
@@ -18562,10 +18548,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2258.001220703125,
-            "y": -3553.999755859375,
-            "width": 136.99951171875,
-            "height": 34.000244140625
+            "x": -2258.000244140625,
+            "y": -3554.0,
+            "width": 137.000244140625,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -21334,7 +21320,7 @@
     "m_Title": "Displacement",
     "m_Position": {
         "x": -6444.00048828125,
-        "y": -7437.00048828125
+        "y": -7437.0
     }
 }
 
@@ -21667,7 +21653,7 @@
     "m_ObjectId": "bf8ef5b558004aee82e102012ab63a4d",
     "m_Title": "Blinn-Phong",
     "m_Position": {
-        "x": -5249.0,
+        "x": -5249.00048828125,
         "y": -2945.0
     }
 }
@@ -22221,8 +22207,8 @@
     "m_ObjectId": "c4c0eef67cd340caa3d70860e4f43d79",
     "m_Title": "Refracción y oleaje",
     "m_Position": {
-        "x": -8586.9990234375,
-        "y": -385.9999084472656
+        "x": -8587.0,
+        "y": -386.0
     }
 }
 
@@ -23301,7 +23287,7 @@
     "m_Title": "Displacement",
     "m_Position": {
         "x": -2343.00048828125,
-        "y": -8791.0009765625
+        "y": -8791.0
     }
 }
 

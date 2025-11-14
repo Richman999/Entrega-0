@@ -71,9 +71,38 @@ Agregados:
 
 #### 6 Iluminación especular analitica (Blinn-Phong): Juan José Areiza Orrego.
 
-
-
-
 Se creó todo un Shader para un único material y brindar la impresión de agua sumada a un pequeño toque artistico.
 
 [Video Demo aquí]( https://youtu.be/8zRPlvk0MLw )
+
+
+---------------------------------------
+
+# 🌊🌌 Entrega Final – Demo Técnica
+
+## 🎥 Demostración
+
+https://github.com/user-attachments/assets/e9665b2d-679f-42b0-95c2-ced19c6884c5
+
+
+## 🔗 Link export WebGL:
+
+[Link WebGL]()
+
+
+### ✅ Efectos y sus responsables:
+
+#### VFX 1 - Power Up: Juan José Areiza Orrego.
+* Importación de personaje y animaciones.
+* Shaders para cambio de material del personaje, glow a partículas y efecto acuático a trails.
+* Particulas de implosión y de acompañamiento post Power Up.
+* Animación de cámara.
+* Efecto de post procesado usado: __Blur Shader__. Hecho con Include y Animator.
+
+#### VFX 2 - Shield: Felipe Franco.
+* Shader para escudo.
+
+#### VFX 3 - Espadas de agua: Miguel Rico y Nicolas.
+* Shader para espadas.
+* Partícula para cada espada.
+

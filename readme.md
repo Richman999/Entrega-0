@@ -82,12 +82,12 @@ Se creó todo un Shader para un único material y brindar la impresión de agua 
 
 ## 🎥 Demostración
 
-https://github.com/user-attachments/assets/e9665b2d-679f-42b0-95c2-ced19c6884c5
+https://github.com/user-attachments/assets/aeb04a44-2f86-4c9d-8d8e-226f9ea57bd1
 
 
-## 🔗 Link export WebGL:
+## 🔗 Link de Build WebGL:
 
-[Link WebGL]()
+[Link Itch.io](https://juanareiza.itch.io/demofinalcg)
 
 
 ### ✅ Efectos y sus responsables:
